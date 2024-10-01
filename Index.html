@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Img/Logo-Topo.png"> 
+</head>
+
+<body>
+    <header>
+        <div>
+            <div>
+                <div class="Menu">
+                    <img src="Img/MENU.png" alt="Menu" height="80px" width="80px">
+                    <div class="Menudisplay">
+                        <div class="logospiel">
+                            <img src="Img/Logo-Spiel.png" alt="Spiel" width="300px" height="200px">
+                        </div>
+                        <div class="alinhar">
+                            <img src="Img/Carrinho.png" alt="Carrinho" width="80px" height="80px">
+                            <h4>Carrinho (0)</h4>
+                            <img src="Img/Perfil.png" alt="Perfil" width="80px" height="80px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <!--Menu-->
+    <main>
+        <div>
+            <nav class="Barra">
+                <ul class="navegaçao">
+                    <li>
+                        <a href="#LOJA">Sua Loja</a>
+                    </li>
+                    <li>
+                        <a href="#RECOMENDADO">Recomendados</a>
+                    </li>
+                    <li>
+                        <a href="#NOVOS">Novidades e Destaques</a>
+                    </li>
+                    <li>
+                        <a href="#CATEGORIAS">Categorias</a>
+                    </li>
+                    <li>
+                        <a href="#FISICA">Loja Fisica</a>
+                    </li>
+                </ul>
+
+                <form class="pesquisa">
+                    <input type="text" placeholder="Procurar">
+                    <button type="submit"><img src="Img/search-icon-2048x2048-cmujl7en.png"
+                            alt="icone de perquisa"></button>
+                </form>
+            </nav>
+        </div>
+
+        <!--Banner-->
+        <div class="Banner">
+            <a href="Index Compra.html"><img src="Img/Já disponivel.png" alt="Final Fantasy"></a>
+        </div>
+
+        <!-- Carrosel -->
+        <h3 style="margin-top: 40px; color: #A152F4; margin-left: 260px;" id="RECOMENDADO">Recomendados</h3>
+        <div class="slider">
+            <div class="slides">
+
+                <div class="slide">
+                    <div class="image">
+                        <img src="Img/macado.webp" alt="Counter-Strike 2">
+                    </div>
+                    <div class="info">
+                        <h2>Black Myth: Wukong</h2>
+                        <p>Já disponível</p>
+                        <span class="badge">Popular</span>
+                        <br>
+                        <br>
+                        <button class="play-free">R$299,90</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botões de navegação -->
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+
+
+        <!-- Lista de Jogos -->
+        <div class="containers">
+            <h1 style="color: #A152F4; text-align: center;" id="NOVOS">Novidades e Destaques</h1>
+            <div class="game-list">
+
+                <!--JOGO 1-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-gta">
+                            <img src="Img/GTA.jpg" alt="GTA V">
+                            <div>
+                                <h3>GRAND THEFT AUTO V</h3>
+                                <p>Terceira Pessoa, Um Jogador, online, Mundo Aberto, Ação</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 175,00</p>
+
+                </div>
+
+                <!--JOGO 2-->
+                <div class="game">
+                    <div class="game-info">
+                        <img src="Img/LOLLIPOP-CHAINSAW-RePOP.webp" alt="LOLLIPOP CHAINSAW RePOP">
+                        <div>
+                            <h3>LOLLIPOP CHAINSAW RePOP</h3>
+                            <p>Ação, Zumbis, Protagonista Mulher, Terceira Pessoa</p>
+                        </div>
+                    </div>
+                    <p class="price">R$ 238,41 <span class="discount">-10%</span></p>
+                    <del>
+                        <p>R$264,90</p>
+                    </del>
+                </div>
+
+                <!--JOGO 3-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-cap">
+                            <img src="Img/Capcom.avif" alt="MARVEL vs. CAPCOM Fighting Collection">
+                            <div>
+                                <h3>MARVEL vs. CAPCOM Fighting Collection</h3>
+                                <p>Ação, Luta 2D, Multijogador, Um Jogador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 199,00</p>
+                </div>
+
+                <!--JOGO 4-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-cap">
+                            <img src="Img/inscry.jpg" alt="inscryption">
+                            <div>
+                                <h3>INSCRYPTION</h3>
+                                <p>Batalha com Cartas, Boa Trama, Terror, Cartas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 49,90</p>
+                </div>
+
+                <!--JOGO 5-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-pay">
+                            <img src="Img/PAY.jpg" alt="PAYDAY 3">
+                            <div>
+                                <h3>PAYDAY 3</h3>
+                                <p>Ação, Primeira Pessoa, Assalto, Cooperativo, Crime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 79,60 <span class="discount">-60%</span></p>
+                    <del>
+                        <p>R$199,00</p>
+                    </del>
+                </div>
+
+                <!--JOGO 6-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-Crew">
+                            <img src="Img/A besta.jpg" alt="The Crew">
+                            <div>
+                                <h3>THE CREW 2</h3>
+                                <p>Corrida, Mundo Aberta, Carro, Multijogador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 3,00<span class="discount">-98%</span></p>
+                    <del>
+                        <p>R$ 149,99</p>
+                    </del>
+                </div>
+
+                <!--JOGO 7-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-cap">
+                            <img src="Img/COD.jpg" alt="COD">
+                            <div>
+                                <h3>CALL OF DUTY: BLACK OPS 6</h3>
+                                <p>Ação, Multijogador, Tiro, Primeira Pessoa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 339,90</p>
+                </div>
+
+                <!--JOGO 8-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-cap">
+                            <img src="Img/Dogma do dragao.jpg" alt="Dragon´s Dogma">
+                            <div>
+                                <h3>DRAGON´S DOGMA</h3>
+                                <p>RPG, Mundo Aberto, Ação, RBG de Ação</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 279,00</p>
+                </div>
+
+                <!--JOGO 9-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-cap">
+                            <img src="Img/Lobo em chines.jpg" alt="Sekiro">
+                            <div>
+                                <h3>SEKIRO: SHADOW DIE TWICE</h3>
+                                <p>Ação, SoulsLike, Dificil, Ninja, Um Jogador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 274,00</p>
+                </div>
+
+                <!--JOGO 10-->
+                <div class="game">
+                    <div class="game-info">
+                        <div class="game-info-dark">
+                            <img src="Img/Alma negra.avif" alt="Sekiro">
+                            <div>
+                                <h3>DARK SOULS: REMASTERED</h3>
+                                <p>Ação, SoulsLike, Dificil, RBG de Ação, Um Jogador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price">R$ 154,90</p>
+                </div>
+
+            </div>
+
+            <!--Categorias-->
+            <h1 style="color: #A152F4; margin-top: 50px; text-align: center;" id="CATEGORIAS">Categorias</h1>
+            <div class="categorias">
+                <div class="categoria" id="realidade-virtual">
+                    <h2>Aventura</h2>
+                </div>
+                <div class="categoria" id="estrategia">
+                    <h2>Estratégia</h2>
+                </div>
+                <div class="categoria" id="gratis">
+                    <h2>Gratuitos para Jogar</h2>
+                </div>
+                <div class="categoria" id="cooperativo">
+                    <h2>Cooperativo</h2>
+                </div>
+            </div>
+
+            <!--Painel de jogos-->
+            <h1 style="color: #A152F4; margin-top: 80px; text-align: center;" id="LOJA">Sua Loja</h1>
+            <div class="game-store">
+                <div class="games">
+                    <img src="Img/Cleitos.jpg" alt="God of War Ragnarok">
+                    <p>God of War Ragnarök - R$ 249,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Humano-plano.avif" alt="Human Fall Flat">
+                    <p>Human Fall Flat - <br>R$ 11,39</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/PUBG.jpg" alt="PUBG">
+                    <p>PUBG - <br>Gratuito para jogar</p>
+                    <button>Baixar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/zera.jpg" alt="Blasphemous 2">
+                    <p>Blasphemous 2 - <br>R$ 109,00</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Meto.webp" alt="Metro">
+                    <p>Metro: Redux - R$ 99,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Call ruim do zera.jpg" alt="Stalker">
+                    <p>Stalker: complete budle - R$ 195,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Ultimo de nos.jpg" alt="Ultimo de Nós">
+                    <p>The Last of Us - <br> R$ 250,00 </p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Outra call ruim do zera.jpg" alt="Entre Nós">
+                    <p>Among Us - R$ 14,99 </p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Homem chuva.jpg" alt="RayMan">
+                    <p>RayMan: Legends - <br>R$ 83,50 </p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Matador.jpg" alt="wolfenstein">
+                    <p>wolfenstein - R$ 105,00 </p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Vazio-Demais.jpg" alt="Hollow Knight">
+                    <p>Hollow Knight - R$ 32,50 </p>
+                    <button>Comprar</button>
+                </div>
+                <div class="games">
+                    <img src="Img/Demonio da peste.jpg" alt="Demon souls">
+                    <p>Demon´s Souls - <br>R$ 345,90 </p>
+                    <button>Comprar</button>
+                </div>
+
+            </div>
+
+            <!--Loja Fisica-->
+            <section style="background-color: #011e4e;">
+                <div>
+                    <h1 style="text-align: center; color: #A152F4; margin-top: 100px;" id="FISICA">Loja Fisica</h1>
+                    <p class="descriçao">
+                        Bem-vindo à Spiel, o destino perfeito para todos os amantes de jogos! Seja você fã de títulos
+                        clássicos ou das mais recentes novidades do mercado, na Spiel você encontrará uma vasta seleção
+                        de jogos para todas as plataformas, visite a nossa loja.
+                    </p>
+                </div>
+
+                <div class="Maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.5340019895953!2d-52.4347966239288!3d-28.25182045048337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e2c0b913f03641%3A0xcdf7dab386f73543!2sR.%20Ludovico%20Della%20Mea%20-%20Vila%20Vera%20Cruz%2C%20Passo%20Fundo%20-%20RS%2C%2099040-170!5e0!3m2!1spt-BR!2sbr!4v1726592326210!5m2!1spt-BR!2sbr"
+                        width="600" height="450"
+                        style="border: 3px solid black; border-radius: 20px; box-shadow: 3.5rem;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <h3 style="text-align: center;">Rua Ludovico della mea, 454 -Vera Cruz- RS</h3>
+            </section>
+
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Informação de contato</p>
+                    <ul>
+                        <li>
+                            R. Ludovico della mea, 454
+                        </li>
+                        <li>Telefone: (14) 99608-9991</li>
+                        <li>EmaiL: SpielGames@Gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Informações</p>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Informações de Entrega</a></li>
+                        <li><a href="#">ermos e Condições</a></li>
+                        <li><a href="#">Contate-nos</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Minha conta</p>
+
+                    <ul>
+                        <li><a href="#">Minha conta</a></li>
+                        <li><a href="#">Históricos de pedidos</a></li>
+                        <li><a href="#">Lista de desejos</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Inscrever-se</p>
+
+                    <div class="content">
+                        <p>
+                            Se inscreva para ter informações e ofertas exclusivas sobre a Le Café Parisien
+                        </p>
+                        <input type="email" placeholder="Insira seu email aqui">
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Sua loja de jogos definitiva &copy; 2024
+                </p>
+
+                <img src="Img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
